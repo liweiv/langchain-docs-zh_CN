@@ -1,0 +1,12 @@
+/* markdown 段落首行缩进2字符 */
+main p {
+  text-indent: 2em;
+}
+/* ul 下的段落不缩进 */
+main ul p {
+  text-indent: 0;
+}
+/* 评论里的段落不缩进保持原样 */
+#giscus-container p {
+  text-indent: 0;
+}

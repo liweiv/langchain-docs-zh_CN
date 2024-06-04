@@ -1,0 +1,17 @@
+[book]
+authors = ["liwei"]
+language = "en"
+multilingual = false
+src = "src"
+title = "Flutter + Rust 跨平台应用开发实战"
+[output.html]
+additional-css = ["assets/custom.css"]
+additional-js = ["assets/custom.js"]
+git-repository-url = "https://github.com/liweiv/flutter-rust-app-dev-book"
+[output.html.playground]
+editable = true
+copy-js = true
+
+[output.html.fold]
+enable = true
+level = 0
