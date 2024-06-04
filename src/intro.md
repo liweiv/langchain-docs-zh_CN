@@ -27,7 +27,7 @@ LangChain 简化了 LLM 应用程序生命周期的每个阶段：
 
 - langserve：将 LangChain 链部署为 REST API。
 
-- ngSmith：一个开发者平台，让您调试、测试、评估和监控 LLM 应用程序。
+- langSmith：一个开发者平台，让您调试、测试、评估和监控 LLM 应用程序。
 
 >注意
 这些文档重点介绍 Python LangChain 库。[点击这里](https://js.langchain.com/)查看 JavaScript LangChain 库的文档。
