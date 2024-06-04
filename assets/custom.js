@@ -30,14 +30,14 @@ var initAll = function () {
   })
 
   // Un-active everything when you click it
-  // Array.prototype.forEach.call(document.getElementsByClassName("pagetoc")[0].children, function (el) {
-  //     el.addEventHandler("click", function () {
-  //         Array.prototype.forEach.call(document.getElementsByClassName("pagetoc")[0].children, function (el) {
-  //             el.classList.remove("active");
-  //         });
-  //         el.classList.add("active");
-  //     });
-  // });
+  Array.prototype.forEach.call(document.getElementsByClassName("pagetoc")[0].children, function (el) {
+      el.addEventHandler("click", function () {
+          Array.prototype.forEach.call(document.getElementsByClassName("pagetoc")[0].children, function (el) {
+              el.classList.remove("active");
+          });
+          el.classList.add("active");
+      });
+  });
 
   var updateFunction = function () {
     var id = null
@@ -48,18 +48,18 @@ var initAll = function () {
       }
     })
 
-    // Array.prototype.forEach.call(document.getElementsByClassName("pagetoc")[0].children, function (el) {
-    //     el.classList.remove("active");
-    // });
+    Array.prototype.forEach.call(document.getElementsByClassName("pagetoc")[0].children, function (el) {
+        el.classList.remove("active");
+    });
 
-    // Array.prototype.forEach.call(document.getElementsByClassName("pagetoc")[0].children, function (el) {
-    //     if (id == null) {
-    //         return;
-    //     }
-    //     if (id.href.localeCompare(el.href) == 0) {
-    //         el.classList.add("active");
-    //     }
-    // });
+    Array.prototype.forEach.call(document.getElementsByClassName("pagetoc")[0].children, function (el) {
+        if (id == null) {
+            return;
+        }
+        if (id.href.localeCompare(el.href) == 0) {
+            el.classList.add("active");
+        }
+    });
   }
 
   var pagetoc = document.getElementsByClassName('pagetoc')[0]
@@ -84,8 +84,8 @@ var initAll = function () {
 
     link.appendChild(document.createTextNode(el.text))
     link.style.paddingLeft = indent
-    //link.href = el.href
-    //pagetoc.appendChild(link)
+    link.href = el.href
+    pagetoc.appendChild(link)
   })
   updateFunction.call()
 
@@ -159,10 +159,10 @@ var initAll = function () {
   script.src = 'https://giscus.app/client.js'
   script.async = true
   script.crossOrigin = 'anonymous'
-  script.setAttribute('data-repo', 'liweiv/flutter-rust-app-dev-book')
-  script.setAttribute('data-repo-id', 'R_kgDOL5NZcA')
+  script.setAttribute('data-repo', 'liweiv/langchain-docs-zh_CN')
+  script.setAttribute('data-repo-id', 'R_kgDOMEyXWg')
   script.setAttribute('data-category', '章节评论')
-  script.setAttribute('data-category-id', 'DIC_kwDOL5NZcM4CfPjE')
+  script.setAttribute('data-category-id', 'DIC_kwDOMEyXWs4Cf2hw')
   script.setAttribute('data-mapping', 'specific')
   script.setAttribute('data-term', pagePath)
   script.setAttribute('data-reactions-enabled', '1')

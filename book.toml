@@ -3,15 +3,14 @@ authors = ["liwei"]
 language = "en"
 multilingual = false
 src = "src"
-title = "Flutter + Rust 跨平台应用开发实战"
+title = "LangChain中文开发文档"
 [output.html]
-additional-css = ["assets/custom.css"]
-additional-js = ["assets/custom.js"]
-git-repository-url = "https://github.com/liweiv/flutter-rust-app-dev-book"
+additional-css = ["theme/style.css","assets/custom.css"]
+additional-js = ["assets/custom.js", "assets/bigPicture.js"]
+git-repository-url = "https://github.com/liweiv/langchain-zh_CN"
 [output.html.playground]
 editable = true
 copy-js = true
-
 [output.html.fold]
 enable = true
 level = 0
