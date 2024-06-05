@@ -1,5 +1,5 @@
 
-![](https://cdn.liweiv.com/imgs/2024-06-04-langchain.svg)
+![](http://cdn.pangu.cloud/imgs/2024-06-04-langchain.svg)
 
 # 介绍
 
@@ -11,7 +11,7 @@ LangChain 简化了 LLM 应用程序生命周期的每个阶段：
 - 生产化：使用 LangSmith 检查、监控和评估您的链，以便您能够持续优化和自信地部署。
 - 部署：使用 LangServe 将任何链转换为 API。
 
-![](https://cdn.liweiv.com/imgs/2024-06-04-133938.png)
+![](http://cdn.pangu.cloud/note/img/2024-06-05-071208.png)
 
 具体来说，该框架由以下开源库组成：
 
@@ -67,10 +67,8 @@ LangChain 简化了 LLM 应用程序生命周期的每个阶段：
 
 ### 安全性
 阅读我们的安全最佳实践，确保您在使用 LangChain 开发时保持安全。
-
 ### 集成 
 LangChain 是一个丰富的工具生态系统的一部分，这些工具与我们的框架集成并在其基础上构建。查看我们不断增长的集成列表。
-
 ### 贡献 
 查看开发者指南，了解贡献的指导方针并帮助您设置开发环境。
 

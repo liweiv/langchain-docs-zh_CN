@@ -3,7 +3,7 @@ authors = ["liwei"]
 language = "en"
 multilingual = false
 src = "src"
-title = "LangChain中文开发文档"
+title = "LangChain 中文开发文档"
 [output.html]
 additional-css = ["theme/style.css","assets/custom.css"]
 additional-js = ["assets/custom.js", "assets/bigPicture.js"]
