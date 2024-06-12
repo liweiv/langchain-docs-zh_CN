@@ -5,6 +5,7 @@
 - [学习指南](tutorials.md)
     - [基础知识](tutorials/basic.md)
         - [使用LCEL构建简单的LLM应用](tutorials/llm_chain.md)
+        - [构建聊天机器人](tutorials/chatbot.md)
 
     - [与外部知识协作](tutorials/with-external.md)
         - [构建检索增强生成（RAG）应用](tutorials/rag.md)

@@ -4,7 +4,7 @@
 
 ## 基础知识
 - [使用LCEL构建一个简单的LLM应用](tutorials/llm_chain.md)
-- [构建一个聊天机器人](https://python.langchain.com/v0.2/docs/tutorials/chatbot/)
+- [构建一个聊天机器人](tutorials/chatbot.md)
 - [构建向量存储和检索器](https://python.langchain.com/v0.2/docs/tutorials/retrievers/)
 - [构建一个代理](https://python.langchain.com/v0.2/docs/tutorials/agents/)
 ## 与外部知识协作
