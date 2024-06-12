@@ -1,4 +1,4 @@
-# langchain 官方文档翻译
+# langchain 官方文档翻译 （v0.2）
 
 [官方文档](https://python.langchain.com/v0.2/docs/introduction/)
 
