@@ -8,3 +8,15 @@
 ## 欢迎参与贡献
 
 直接fork 提交 PR
+
+- 先安装mdbook
+
+```bash
+cargo install mdbook
+```
+- unix/linux 下可用make 运行及发布
+
+```bash
+make run #运行
+make build #生成静态文件，供发布
+```
